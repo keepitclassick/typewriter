@@ -8,7 +8,7 @@ for (const letter of sentence) {
   delay += 500;
 } setTimeout(() => {
   process.stdout.write("\n");
-}, delay)
+}, delay);
 
 
 //process.stdout.write removes the new line that is created at the end of a console.log
